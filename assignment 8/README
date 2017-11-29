@@ -1,0 +1,32 @@
+							DISJOINT SET UNION
+					Author: E Santhosh Kumar (CS16B107)
+***********************************************************************************
+
+PROBLEM STATEMENT:-					
+Implement disjoint set data structure with support for the following operations
+
+1. Make_set ( x ) - To create a new set with element x
+
+2. Find_set ( x ) - Find the set to which x belongs
+
+3. Union (S1, S2) - Union of two sets S1 and S2
+
+Also, provide an interactive interface through the terminal for the above operations. 
+
+***********************************************************************************
+COMPILATION COMMAND;-
+Compile the code using the following command
+
+	gcc -o assign8 driver.c disjoint_set.c
+
+***********************************************************************************
+USING THE PROGRAM:-
+The program offers support for the following interactive operations over Disjoint Set Union
+	
+	1) makeSet -> a function to create a new set with the given element, provided the element is not already present 
+	2) findSet -> a function to print the Leader of the set that the given element belongs to, if it is present
+	3) unionSet -> a function to perform Union operation on the sets that contain the 2 given elements
+
+	All three functions can be accessed through the interactive menu offered by the driver program
+
+***********************************************************************************
